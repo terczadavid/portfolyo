@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npm install *)",
       "Bash(npx tsc *)",
-      "Bash(npx next *)"
+      "Bash(npx next *)",
+      "Bash(npx *)",
+      "Read(//home/davdi/Documents/Github/portfolyo/**)",
+      "Read(//home/davdi/Documents/Github/portfolyo/src/**)"
     ]
   }
 }
