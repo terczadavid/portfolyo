@@ -12,3 +12,17 @@ export interface GitHubRepo {
   pushed_at: string; homepage: string | null; stargazers_count: number
   language: string | null; forks_count: number; topics: string[]
 }
+
+export interface CustomOptions {
+  font: string
+  accent: string
+  dark: boolean
+  avatarShape: 'circle' | 'rounded' | 'square'
+  cardStyle: 'rounded' | 'square' | 'borderless'
+  bgStyle: 'solid' | 'dots' | 'grid' | 'gradient'
+  showTechStack: boolean
+  showAllRepos: boolean
+  showStats: boolean
+  showFooter: boolean
+  projectSort: 'stars' | 'updated' | 'forks'
+}
